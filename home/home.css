@@ -1,0 +1,295 @@
+                        @import url('https://fonts.googleapis.com/css?family=Nunito');
+                        @import url('https://fonts.googleapis.com/css?family=Lato');
+                        @keyframes escala {
+                            0% {
+                                transform: scale(1);
+                            }
+                            50% {
+                                transform: scale(1.3)
+                            }
+                            100% {
+                                transform: scale(1)
+                            }
+                        }
+                        
+                        .slide {
+                            background-image: url('https://coolbackgrounds.io/images/backgrounds/sea-edge-311c5cd5.png');
+                            background-position: center;
+                            background-size: cover;
+                            width: 100%;
+                            height 100vh;
+                        }
+                        
+                        .slogan {
+                            font-family: Nunito;
+                        }
+                        
+                        .cover {
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 0, 0, .3);
+                        }
+                        
+                        body {
+                            margin: 0;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .navbar {
+                            flex-wrap: wrap;
+                            display: flex;
+                            height: 70px;
+                            width: 100%;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 20px;
+                            box-sizing: border-box;
+                            z-index: 999;
+                            position: fixed;
+                            color: white;
+                        }
+                        
+                        .pestanas {
+                            display: flex;
+                            font-size: 24px;
+                        }
+                        
+                        .pestanas p {
+                            margin: 0 20px;
+                        }
+                        
+                        .slogan {
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                        }
+                        
+                        .slogan p {
+                            font-size: 40px;
+                            color: white;
+                            transition: all 1s ease;
+                        }
+                        
+                        .slogan h1 {
+                            font-family: 'Lato', sans-serif;
+                            background-color: rgba(0, 0, 0, .3);
+                            font-size: 70px;
+                            font-weight: bolder;
+                            color: white;
+                            margin-bottom: 5px;
+                        }
+                        
+                        .move hr {
+                            background-color: white;
+                            width: 0px;
+                            height: 1px;
+                            border: none;
+                            cursor: pointer;
+                            transition: all 1s ease;
+                        }
+                        
+                        .move:hover hr {
+                            width: 120px;
+                        }
+                        
+                        .move:hover p {
+                            opacity: 1;
+                            margin-top: 10px;
+                        }
+                        
+                        .flex {
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        .move:hover hr {
+                            width: 120px;
+                        }
+                        /*about*/
+                        
+                        .navbar a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .about {
+                            width: 100%;
+                            height: 100vh;
+                            background-color: #222;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .about h2 {
+                            font-size: 32px;
+                            color: white;
+                        }
+                        
+                        .about p {
+                            font-size: 24px;
+                            color: white;
+                            line-height: 150%;
+                        }
+                        
+                        .descript {
+                            width: 80%;
+                            margin: 0 auto;
+                            height: 100%;
+                        }
+                        
+                        .descript div {
+                            width: 350px;
+                            flex-grow: 1;
+                        }
+                        
+                        .photo {
+                            width: 350px;
+                            height: 350px;
+                            border-radius: 100px;
+                            overflow: hidden;
+                            border: 3px solid white;
+                            background-position: center;
+                            background-size: cover;
+                            background-image: url('../images/animal2.jpg');
+                        }
+                        
+                        .about i {
+                            color: white;
+                            margin: 0 10px;
+                            font-size: 32px;
+                        }
+                        
+                        .photo:hover {
+                            transition: all 1s ease;
+                            background-image: url('https://vignette.wikia.nocookie.net/muppets/images/4/47/Animal.jpg/revision/latest?cb=20111212193335&path-prefix=es');
+                        }
+                        
+                        .slide {
+                            width: 100%;
+                            height: 100vh;
+                            background-image: url('https://images.pexels.com/photos/1143824/pexels-photo-1143824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+                            background-position: center;
+                            background-size: cover;
+                            filter: grayscale(50%);
+                            text-align: center;
+                        }
+                        
+                        .flexwork {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        .info h1 {
+                            font-size: 5rem;
+                            color: white;
+                            margin-bottom: 0;
+                        }
+                        
+                        .info p {
+                            font-size: 5rem;
+                            color: white;
+                            margin-top: 0;
+                        }
+                        
+                        .info i {
+                            color: white;
+                            font-size: 5rem;
+                        }
+                        
+                        .flexito {
+                            width: 80%;
+                            height: auto;
+                            margin: 50 auto;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .overflow {
+                            width: 500px;
+                            height: 400px;
+                            flex-grow: 1;
+                            margin: 5px;
+                            cursor: pointer;
+                            transition: all 1s ease;
+                            overflow: hidden;
+                        }
+                        
+                        .overflow2 {
+                            width: 250px;
+                            height: 400px;
+                            flex-grow: 1;
+                            margin: 5px;
+                            cursor: pointer;
+                            transition: all 1s ease;
+                            overflow: hidden;
+                        }
+                        
+                        .uno {
+                            width: 100%;
+                            height: 100%;
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        
+                        .dos {
+                            width: 100%;
+                            height: 100%;
+                            background-position: center;
+                            background-size: cover;
+                            cursor: pointer;
+                        }
+                        
+                        .fotito_uno {
+                            background-image: url('https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?cs=srgb&dl=adults-artist-band-167589.jpg&fm=jpg');
+                        }
+                        
+                        .fotito_dos {
+                            background-image: url('https://images.pexels.com/photos/674048/pexels-photo-674048.jpeg?cs=srgb&dl=black-and-white-blur-brand-674048.jpg&fm=jpg');
+                        }
+                        
+                        .fotito_tres {
+                            background-image: url('https://images.pexels.com/photos/157230/pexels-photo-157230.jpeg?cs=srgb&dl=black-and-white-man-motorbike-157230.jpg&fm=jpg');
+                        }
+                        
+                        .fotito_cuatro {
+                            background-image: url('https://images.pexels.com/photos/8572/food-chicken-meat-outdoors.jpg?cs=srgb&dl=barbecue-bbq-chicken-8572.jpg&fm=jpg');
+                        }
+                        
+                        .fotito_cinco {
+                            background-image: url('https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?cs=srgb&dl=adult-adventure-asphalt-969679.jpg&fm=jpg');
+                        }
+                        
+                        .uno:hover {
+                            animation: escala;
+                            animation-duration: 2s;
+                        }
+                        
+                        .dos:hover {
+                            animation: escala;
+                            animation-duration: 2s;
+                        }
+                        
+                        .uno:hover .coverw {
+                            display: flex;
+                        }
+                        
+                        .dos:hover .coverw {
+                            display: flex;
+                        }
+                        
+                        .coverw {
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 0, 0, .5);
+                            color: white;
+                            display: none;
+                        }
+                        
+                        .proyectos a {
+                            text-decoration: none;
+                            color: inherit;
+                        }
